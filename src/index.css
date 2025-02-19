@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[url("./assets/room.svg")] bg-no-repeat bg-cover bg-center h-screen;
+  }
+}
+
+.scrollbar-hide{
+  scrollbar-width: none;
+}
