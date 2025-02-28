@@ -9,3 +9,20 @@
 .scrollbar-hide{
   scrollbar-width: none;
 }
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #1DA1F2;
+  border-radius: 50%;
+  cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background: #1DA1F2;
+  border-radius: 50%;
+  cursor: pointer;
+}
