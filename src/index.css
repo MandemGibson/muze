@@ -19,10 +19,32 @@ input[type="range"]::-webkit-slider-thumb {
   border-radius: 50%;
   cursor: pointer;
 }
+
 input[type="range"]::-moz-range-thumb {
   width: 10px;
   height: 10px;
   background: #1DA1F2;
   border-radius: 50%;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .responsive-container {
+    max-width: 90% !important;
+    max-height: 90% !important;
+  }
+
+  .responsive-bottom {
+    flex-direction: column !important;
+  }
+
+  .responsive-controls {
+    width: 90% !important;
+    bottom: -20px !important;
+  }
+
+  .responsive-controls-inner {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
 }
